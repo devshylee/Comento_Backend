@@ -1,6 +1,6 @@
 #코멘토_직무부트캠프_IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무
 
-## 주간보고내용
+## 주간보고내용 (주말안에 데이터 조회까지 완료하겠습니다. 늦어서 죄송합니다ㅠ)
 
 1. 개발환경 셋팅
     - JDK 1.8 설치 및 환경변수 설정
@@ -15,6 +15,8 @@
                 values(1,'아이언맨','감독1','SF'),
                 (2, '스파이더맨','감독2','SF'),
                 (3, '라이온킹','감독3','다큐멘터리');
+      ![table](https://github.com/lesh0331/comento_leesunghyeon/assets/69080831/c2d303e9-6999-4e19-8c38-d3fbceda1eb2)
+
       
     - 스프링, Mariadb, MyBatis 연동, 데이터 조회
-    - ![camp1](https://github.com/lesh0331/comento_leesunghyeon/assets/69080831/263e0ff4-9aea-48f0-a465-0d84064b897d)
+

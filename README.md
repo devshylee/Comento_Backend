@@ -17,3 +17,4 @@
                 (3, '라이온킹','감독3','다큐멘터리');
       
     - 스프링, Mariadb, MyBatis 연동, 데이터 조회
+    - ![camp1](https://github.com/lesh0331/comento_leesunghyeon/assets/69080831/263e0ff4-9aea-48f0-a465-0d84064b897d)

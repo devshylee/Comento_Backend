@@ -1,10 +1,10 @@
 #코멘토_직무부트캠프_IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무
 
-## 주간보고내용
+## 주간보고내용 - 1주차
 
 1. 개발환경 셋팅
     - JDK 1.8 설치 및 환경변수 설정
-    - Eclipse, Spring 다운로드 및 설치 (이클립스 기반으로 된 STS를 Spring 프레임 워크 사이트에서 설치)
+    - Eclipse, Spring 다운로드 및 설치 (이클립스 기반으로 된 STS를 Spring 프레임워크를 공식 사이트에서 설치)
     - 톰캣 설정
       
 2. 1주차 활동 내용
@@ -18,5 +18,33 @@
       ![table](https://github.com/lesh0331/comento_leesunghyeon/assets/69080831/c2d303e9-6999-4e19-8c38-d3fbceda1eb2)
 
       
-    - 스프링, Mariadb, MyBatis 연동, 데이터 조회
+    - 스프링, Mariadb, MyBatis 연동, 데이터 조회    
+  
+## 주간보고내용 - 2주차(API 가이드 문서 작성)
+
+1. 요청사항
+   - (1) 인터페이스 가이드 문서 작성
+
+   - (2) SW활용률(접속자 수, 부서별 접속자 수, 로그인 요청 수, 게시 글 작성 수)  
+         에 필요한 데이터를 해당 내용에 맞게 문서를 작성  
+         (요청 파라미터 생각, 응답 데이터 포맷 고려)
+
+2. 2주차 활동 내용
+   - (1) 접속자 수에 필요한 데이터 (요청 파라미터, 응답 데이터 포맷) 고려하기
+   - 
+     (2) 필요한 데이터(공통) : user_id(유저의 ID), period(조회 기간)
+       
+         ㄱ. 접속자 수 조회 : total_user(총 조회된 접속자 수), user_id(ID의 유저 접속현황 조회), period(조회 기간)   
+         ㄴ. 부서 별 접속자 수 조회 : department_id(조회된 부서의 ID), department_name(조회된 부서의 이름), total_user(총 조회된 접속자 수), period(조회 기간)   
+         ㄷ. 로그인 요청 수 조회 : login_request(총 로그인 요청 수), user_id(ID의 유저 로그인 요청 수 조회), period(조회 기간)   
+         ㄹ. 게시글 작성 수 조회 : total_post(총 작성된 게시글 수), user_id(ID의 유저 게시글 작성 수 조회), period(조회 기간)  
+
+     (3) 요청 파라미터 : POST
+
+
+ 3. 2주차 활동 내용에 대한 질문
+    - (1) 요청 파라미터에 대해 잘 이해했는지 모르겠습니다.  
+          처음 본 개념이라 검색을 통해 찾아본 결과 **"요청 파라미터는 클라이언트가 서버로 데이터를 전송하는 데 사용되는 매개변수"**  
+          이며 *https://dodeon.gitbook.io/study/kimyounghan-spring-mvc/06-basic/http-request-parameter* 블로그의 글처럼   
+          3가지 방법이 있으며 URL, 쿼리, JSON 형태로
 

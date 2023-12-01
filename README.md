@@ -32,19 +32,14 @@
 2. 2주차 활동 내용
    - (1) 접속자 수에 필요한 데이터 (요청 파라미터, 응답 데이터 포맷) 고려하기
    - 
-     (2) 필요한 데이터(공통) : user_id(유저의 ID), period(조회 기간)
+     (2) 요청 파라미터 :
        
          ㄱ. 접속자 수 조회 : total_user(총 조회된 접속자 수), user_id(ID의 유저 접속현황 조회), period(조회 기간)   
          ㄴ. 부서 별 접속자 수 조회 : department_id(조회된 부서의 ID), department_name(조회된 부서의 이름), total_user(총 조회된 접속자 수), period(조회 기간)   
          ㄷ. 로그인 요청 수 조회 : login_request(총 로그인 요청 수), user_id(ID의 유저 로그인 요청 수 조회), period(조회 기간)   
          ㄹ. 게시글 작성 수 조회 : total_post(총 작성된 게시글 수), user_id(ID의 유저 게시글 작성 수 조회), period(조회 기간)  
 
-     (3) 요청 파라미터 : POST
+   - (3) 응답 데이터 포맷 : JSON
 
 
- 3. 2주차 활동 내용에 대한 질문
-    - (1) 요청 파라미터에 대해 잘 이해했는지 모르겠습니다.  
-          처음 본 개념이라 검색을 통해 찾아본 결과 **"요청 파라미터는 클라이언트가 서버로 데이터를 전송하는 데 사용되는 매개변수"**  
-          이며 *https://dodeon.gitbook.io/study/kimyounghan-spring-mvc/06-basic/http-request-parameter* 블로그의 글처럼   
-          3가지 방법이 있으며 URL, 쿼리, JSON 형태로
 

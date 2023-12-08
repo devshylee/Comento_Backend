@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+</head>
+<body>
+
+    <h1>Movie List</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Movie ID</th>
+                <th>Movie Name</th>
+                <th>Director</th>
+                <th>Types</th>
+            </tr>
+        </thead>
+        <tbody th:each="movie : ${movieList}">
+            <tr>
+                <td th:text="${movie.movieId}"></td>
+                <td th:text="${movie.movieName}"></td>
+                <td th:text="${movie.director}"></td>
+                <td th:text="${movie.types}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

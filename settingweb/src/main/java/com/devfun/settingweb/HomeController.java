@@ -16,7 +16,7 @@ import com.devfun.vo.MovieVO;
 import com.devfun.service.MovieService;
  
 /**
- * Handles requests for the application home page. a
+ * Handles requests for the application home page.
  */
 @Controller
 public class HomeController {

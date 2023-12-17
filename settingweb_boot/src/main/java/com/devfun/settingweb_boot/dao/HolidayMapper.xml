@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.devfun.settingweb_boot.dao.HolidayMapper">
+
+    <!-- 모든 공휴일 조회 -->
+    <select id="selectAllHolidays" resultType="com.devfun.settingweb_boot.domain.Holiday">
+        SELECT * FROM holidays;
+    </select>
+
+    <!-- 특정 날짜의 공휴일 조회 -->
+    <select id="selectHolidayByDate" parameterType="string" resultType="com.devfun.settingweb_boot.domain.Holiday">
+        SELECT * FROM holidays WHERE holiday_date = #{holidayDate};
+    </select>
+
+    <!-- 공휴일 추가 -->
+    <insert id="insertHoliday" parameterType="com.devfun.settingweb_boot.domain.Holiday">
+        INSERT INTO holidays (holiday_date, holiday_name) VALUES (#{holidayDate}, #{holidayName});
+    </insert>
+
+    <!-- 공휴일 업데이트 -->
+    <update id="updateHoliday" parameterType="com.devfun.settingweb_boot.domain.Holiday">
+        UPDATE holidays SET holiday_name = #{holidayName} WHERE holiday_date = #{holidayDate};
+    </update>
+
+    <!-- 공휴일 삭제 -->
+    <delete id="deleteHoliday" parameterType="string">
+        DELETE FROM holidays WHERE holiday_date = #{holidayDate};
+    </delete>
+
+</mapper>

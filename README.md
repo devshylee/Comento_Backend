@@ -63,4 +63,5 @@
 - OpenApiController.java(공공데이터의 공휴일 정보를 조회)
 - OpenApiExplorer.java(공공데이터 사이의 API를 호출)
 - OpenApiService.java(공휴일 정보를 처리하고 데이터베이스에 저장)
+- 조회를 위한 test.jsp 코드 추가
 

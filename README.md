@@ -55,5 +55,12 @@
   
     "(수정)API 가이드 문서"를 열람해주시면 됩니다!
 
+## 주간보고내용 - 4주차
 
+- 공공데이터 사이트 공휴일 오픈API 활용
+- Holiday.java(공휴일 정보를 나타내는 엔터티)
+- HolidayRepository.java(데이터베이스 읽고 쓰기)
+- OpenApiController.java(공공데이터의 공휴일 정보를 조회)
+- OpenApiExplorer.java(공공데이터 사이의 API를 호출)
+- OpenApiService.java(공휴일 정보를 처리하고 데이터베이스에 저장)
 
